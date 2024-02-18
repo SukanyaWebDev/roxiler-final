@@ -1,0 +1,27 @@
+# Initialize Database
+GET http://localhost:5000/initialize-database
+
+####
+
+# List Transactions
+GET http://localhost:5000/list-transactions?month=1
+
+###
+
+# Statistics
+GET http://localhost:5000/statistics?month=1
+
+
+###
+# Bar Chart
+GET http://localhost:5000/bar-chart?month=1
+
+###
+
+# Pie Chart
+GET http://localhost:5000/pie-chart?month=1
+
+###
+
+# Combined Response
+GET http://localhost:5000/combined-response?month=1
